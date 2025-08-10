@@ -1,0 +1,28 @@
+{
+    "checksum": "e95ad9d729526ed249d2c4e766165dac",
+    "wallpaper": "/home/koru/Im\u00e1genes/wallpaper/supe.jpg",
+    "alpha": "100",
+    "special": {
+        "background": "#24200f",
+        "foreground": "#c8c7c3",
+        "cursor": "#c8c7c3"
+    },
+    "colors": {
+        "color0": "#24200f",
+        "color1": "#948964",
+        "color2": "#717E82",
+        "color3": "#798993",
+        "color4": "#8E9A9D",
+        "color5": "#99A9B7",
+        "color6": "#9DAFC1",
+        "color7": "#c8c7c3",
+        "color8": "#74705e",
+        "color9": "#948964",
+        "color10": "#717E82",
+        "color11": "#798993",
+        "color12": "#8E9A9D",
+        "color13": "#99A9B7",
+        "color14": "#9DAFC1",
+        "color15": "#c8c7c3"
+    }
+}

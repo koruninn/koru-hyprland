@@ -1,0 +1,28 @@
+{
+    "checksum": "7578a539bb27d0529a028ba4dc3dbf7d",
+    "wallpaper": "/home/koru/Im\u00e1genes/wallpaper/capriccio arco rovinato e una villa nello sfondo.jpg",
+    "alpha": "100",
+    "special": {
+        "background": "#130b08",
+        "foreground": "#c4c2c1",
+        "cursor": "#c4c2c1"
+    },
+    "colors": {
+        "color0": "#130b08",
+        "color1": "#666F5D",
+        "color2": "#8F6D3E",
+        "color3": "#778674",
+        "color4": "#928D71",
+        "color5": "#C9A061",
+        "color6": "#778F86",
+        "color7": "#c4c2c1",
+        "color8": "#6b5d57",
+        "color9": "#666F5D",
+        "color10": "#8F6D3E",
+        "color11": "#778674",
+        "color12": "#928D71",
+        "color13": "#C9A061",
+        "color14": "#778F86",
+        "color15": "#c4c2c1"
+    }
+}

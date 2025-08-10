@@ -1,0 +1,28 @@
+{
+    "checksum": "f616f70a2a700c733ab834c71ea8012d",
+    "wallpaper": "/home/koru/Im\u00e1genes/wallpaper/il palazzo ducale visto dal bacino di san marco.jpg",
+    "alpha": "100",
+    "special": {
+        "background": "#201b16",
+        "foreground": "#c7c6c4",
+        "cursor": "#c7c6c4"
+    },
+    "colors": {
+        "color0": "#201b16",
+        "color1": "#88775A",
+        "color2": "#7B8271",
+        "color3": "#A99045",
+        "color4": "#91896F",
+        "color5": "#7E8883",
+        "color6": "#9B9D94",
+        "color7": "#c7c6c4",
+        "color8": "#75685f",
+        "color9": "#88775A",
+        "color10": "#7B8271",
+        "color11": "#A99045",
+        "color12": "#91896F",
+        "color13": "#7E8883",
+        "color14": "#9B9D94",
+        "color15": "#c7c6c4"
+    }
+}

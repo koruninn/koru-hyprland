@@ -1,0 +1,28 @@
+{
+    "checksum": "b88d4edc2465566df53fe4c254c42383",
+    "wallpaper": "/home/koru/Im\u00e1genes/wallpaper/dark/watchmakerhouse2.jpg",
+    "alpha": "100",
+    "special": {
+        "background": "#0f1124",
+        "foreground": "#c3c3c8",
+        "cursor": "#c3c3c8"
+    },
+    "colors": {
+        "color0": "#0f1124",
+        "color1": "#49384D",
+        "color2": "#364860",
+        "color3": "#60515B",
+        "color4": "#8E613A",
+        "color5": "#936E55",
+        "color6": "#B19563",
+        "color7": "#c3c3c8",
+        "color8": "#5e6074",
+        "color9": "#49384D",
+        "color10": "#364860",
+        "color11": "#60515B",
+        "color12": "#8E613A",
+        "color13": "#936E55",
+        "color14": "#B19563",
+        "color15": "#c3c3c8"
+    }
+}

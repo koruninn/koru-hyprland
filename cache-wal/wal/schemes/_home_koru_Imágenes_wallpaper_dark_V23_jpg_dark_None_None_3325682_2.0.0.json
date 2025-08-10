@@ -1,0 +1,28 @@
+{
+    "checksum": "7e04d24e211dccc1f987eb25ffab81b7",
+    "wallpaper": "/home/koru/Im\u00e1genes/wallpaper/dark/V23.jpg",
+    "alpha": "100",
+    "special": {
+        "background": "#190e22",
+        "foreground": "#c5c2c7",
+        "cursor": "#c5c2c7"
+    },
+    "colors": {
+        "color0": "#190e22",
+        "color1": "#51368E",
+        "color2": "#5F53A6",
+        "color3": "#1758E0",
+        "color4": "#4055C4",
+        "color5": "#9B6A9A",
+        "color6": "#9A72B8",
+        "color7": "#c5c2c7",
+        "color8": "#695e72",
+        "color9": "#51368E",
+        "color10": "#5F53A6",
+        "color11": "#1758E0",
+        "color12": "#4055C4",
+        "color13": "#9B6A9A",
+        "color14": "#9A72B8",
+        "color15": "#c5c2c7"
+    }
+}

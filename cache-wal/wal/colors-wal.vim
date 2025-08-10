@@ -1,0 +1,23 @@
+" Special
+let wallpaper  = "/home/koru/Imágenes/wallpaper/il palazzo ducale visto dal bacino di san marco.jpg"
+let background = "#201b16"
+let foreground = "#c7c6c4"
+let cursor     = "#c7c6c4"
+
+" Colors
+let color0  = "#201b16"
+let color1  = "#88775A"
+let color2  = "#7B8271"
+let color3  = "#A99045"
+let color4  = "#91896F"
+let color5  = "#7E8883"
+let color6  = "#9B9D94"
+let color7  = "#c7c6c4"
+let color8  = "#75685f"
+let color9  = "#88775A"
+let color10 = "#7B8271"
+let color11 = "#A99045"
+let color12 = "#91896F"
+let color13 = "#7E8883"
+let color14 = "#9B9D94"
+let color15 = "#c7c6c4"

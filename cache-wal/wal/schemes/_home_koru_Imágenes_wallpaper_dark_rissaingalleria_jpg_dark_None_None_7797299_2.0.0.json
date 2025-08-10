@@ -1,0 +1,28 @@
+{
+    "checksum": "0ff5362199f7c00d0986802be53476f0",
+    "wallpaper": "/home/koru/Im\u00e1genes/wallpaper/dark/rissaingalleria.jpg",
+    "alpha": "100",
+    "special": {
+        "background": "#131116",
+        "foreground": "#c4c3c4",
+        "cursor": "#c4c3c4"
+    },
+    "colors": {
+        "color0": "#131116",
+        "color1": "#817F7D",
+        "color2": "#A49066",
+        "color3": "#CFAB56",
+        "color4": "#676D8C",
+        "color5": "#738B92",
+        "color6": "#9F9A95",
+        "color7": "#c4c3c4",
+        "color8": "#625b6f",
+        "color9": "#817F7D",
+        "color10": "#A49066",
+        "color11": "#CFAB56",
+        "color12": "#676D8C",
+        "color13": "#738B92",
+        "color14": "#9F9A95",
+        "color15": "#c4c3c4"
+    }
+}

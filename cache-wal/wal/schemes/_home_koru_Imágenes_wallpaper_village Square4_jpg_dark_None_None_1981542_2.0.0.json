@@ -1,0 +1,28 @@
+{
+    "checksum": "4da4859e53bdfcb1e145ccac8fddf580",
+    "wallpaper": "/home/koru/Im\u00e1genes/wallpaper/village Square4.jpg",
+    "alpha": "100",
+    "special": {
+        "background": "#19100b",
+        "foreground": "#c5c3c2",
+        "cursor": "#c5c3c2"
+    },
+    "colors": {
+        "color0": "#19100b",
+        "color1": "#14324A",
+        "color2": "#122D51",
+        "color3": "#303948",
+        "color4": "#34465D",
+        "color5": "#4F4C4F",
+        "color6": "#605C60",
+        "color7": "#c5c3c2",
+        "color8": "#6e615a",
+        "color9": "#14324A",
+        "color10": "#122D51",
+        "color11": "#303948",
+        "color12": "#34465D",
+        "color13": "#4F4C4F",
+        "color14": "#605C60",
+        "color15": "#c5c3c2"
+    }
+}

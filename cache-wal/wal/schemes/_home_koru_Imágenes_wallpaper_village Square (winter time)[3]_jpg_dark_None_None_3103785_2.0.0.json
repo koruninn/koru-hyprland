@@ -1,0 +1,28 @@
+{
+    "checksum": "a6d89f5ceca257a5b6729db52a625206",
+    "wallpaper": "/home/koru/Im\u00e1genes/wallpaper/village Square (winter time)[3].jpg",
+    "alpha": "100",
+    "special": {
+        "background": "#391c13",
+        "foreground": "#cdc6c4",
+        "cursor": "#cdc6c4"
+    },
+    "colors": {
+        "color0": "#391c13",
+        "color1": "#DFC35A",
+        "color2": "#797296",
+        "color3": "#B39797",
+        "color4": "#D1AC90",
+        "color5": "#D9AF9D",
+        "color6": "#F2D6A0",
+        "color7": "#cdc6c4",
+        "color8": "#7c6b66",
+        "color9": "#DFC35A",
+        "color10": "#797296",
+        "color11": "#B39797",
+        "color12": "#D1AC90",
+        "color13": "#D9AF9D",
+        "color14": "#F2D6A0",
+        "color15": "#cdc6c4"
+    }
+}

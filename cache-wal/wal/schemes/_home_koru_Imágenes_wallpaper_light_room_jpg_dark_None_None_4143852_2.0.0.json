@@ -1,0 +1,28 @@
+{
+    "checksum": "11be01bb1e737f79d3888da2d3945ac8",
+    "wallpaper": "/home/koru/Im\u00e1genes/wallpaper/light/room.jpg",
+    "alpha": "100",
+    "special": {
+        "background": "#3e1d33",
+        "foreground": "#cec6cc",
+        "cursor": "#cec6cc"
+    },
+    "colors": {
+        "color0": "#3e1d33",
+        "color1": "#7158A0",
+        "color2": "#A46994",
+        "color3": "#CB788E",
+        "color4": "#9F73C9",
+        "color5": "#D18A94",
+        "color6": "#E79FA2",
+        "color7": "#cec6cc",
+        "color8": "#826a7a",
+        "color9": "#7158A0",
+        "color10": "#A46994",
+        "color11": "#CB788E",
+        "color12": "#9F73C9",
+        "color13": "#D18A94",
+        "color14": "#E79FA2",
+        "color15": "#cec6cc"
+    }
+}

@@ -1,0 +1,159 @@
+@import "~/.cache/wal/colors-rofi-dark.rasi"
+
+* {
+    font: "SF Pro Display Bold 13";
+    foreground-color: @foreground;
+}
+
+#window {
+    background-color: @background;
+    border: 0;
+    padding: 2.5ch;
+    border-radius:  10px;
+    width: 40%;
+    height: 30%;
+}
+
+#mainbox {
+    border: 0;
+    padding: 12px;
+}
+
+#message {
+    border: 12px 0px 0px;
+    border-radius:      10px;
+    border-color: @border-color;
+    padding: 1px;
+}
+
+#textbox {
+    text-color: white;
+    padding:    8px 24px;
+}
+
+#inputbar {
+    children:   [ entry,case-indicator ];
+    background-color:   @background;
+    border-color:       @border-color;
+
+    border:         2px;
+    border-radius:  10px;
+
+    padding:    8px 16px;
+    spacing:    8px;
+}
+
+#textbox-prompt-colon {
+    expand: false;
+    str: ":";
+    margin: 0px 0.3em 0em 0em;
+    text-color: white;
+}
+
+#listview {
+    fixed-height: 0;
+    border: 2px 0px 0px;
+    border-color: @border-color;
+    spacing: 2px;
+    scrollbar: true;
+    padding: 2px 0px 0px;
+}
+
+element {
+    padding:        8px 16px;
+    spacing:        8px;
+    border-radius:  10px;
+    children: [ element-icon, element-text];
+}
+
+#element-text, element-icon {
+    background-color: inherit;
+    text-color:       inherit;
+}
+
+#element.normal.normal {
+    background-color: @normal-background;
+    text-color: white;
+}
+
+#element.normal.urgent {
+    background-color: @urgent-background;
+    text-color: white;
+}
+
+#element.normal.active {
+    background-color: @active-background;
+    text-color: white;
+}
+
+#element.selected.normal {
+    background-color: @selected-normal-background;
+    text-color: white;
+}
+
+#element.selected.urgent {
+    background-color: @selected-urgent-background;
+    text-color: white;
+}
+
+#element.selected.active {
+    background-color: @selected-active-background;
+    text-color: white;
+}
+
+#element.alternate.normal {
+    background-color: @alternate-normal-background;
+    text-color: white;
+}
+
+#element.alternate.urgent {
+    background-color: @alternate-urgent-background;
+    text-color: white;
+}
+
+#element.alternate.active {
+    background-color: @alternate-active-background;
+    text-color: white;
+}
+
+#scrollbar {
+    width: 4px;
+    border: 0;
+    handle-width: 8px;
+    padding: 0;
+}
+
+#sidebar {
+    border: 2px 0px 0px;
+    border-color: @border-color;
+}
+
+#button {
+    text-color: white;
+}
+
+#button.selected {
+    background-color: @selected-normal-background;
+    text-color: white;
+}
+
+#inputbar {
+    spacing: 0;
+    text-color: white;
+    padding: 1px;
+}
+
+#case-indicator {
+    spacing: 0;
+    text-color: white;
+}
+
+#entry {
+    spacing: 0;
+    text-color: white;
+}
+
+#prompt {
+    spacing: 0;
+    text-color: white;
+}

@@ -1,0 +1,11 @@
+//@theme "/home/koru/.local/share/rofi/themes/rounded-gray-dark.rasi"
+
+    configuration {
+        disable-history: true;
+         opacity:            0.5;
+        drun {
+          display-name: "";
+              }
+    }
+
+@theme "/home/koru/.local/share/rofi/themes/rounded-template.rasi"

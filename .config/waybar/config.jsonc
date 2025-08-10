@@ -1,0 +1,251 @@
+{
+  "layer": "top",
+  "position": "top",
+  "margin-top": 13,
+  "modules-left": ["hyprland/workspaces", "network", "custom/weather", "hyprland/window"],
+  "modules-center": ["custom/notification", "custom/media", "pulseaudio"],
+  "modules-right": ["privacy", "idle_inhibitor", "clock#date", "clock#time", "tray"],
+  "height": 20,
+
+  "custom/notification": {
+    "tooltip": false,
+    "format": "{icon}",
+    "format-icons": {
+      "notification": "󱅫",
+      "none": "󰂚",
+      "dnd-notification": "󰂛<span foreground='white'><sup></sup></span>",
+      "dnd-none": "󰂛",
+      "inhibited-notification": "󰂛<span foreground='white'><sup></sup></span>",
+      "inhibited-none": "󰂛",
+      "dnd-inhibited-notification": "󰂛<span foreground='white'><sup></sup></span>",
+      "dnd-inhibited-none": "󰂛"
+    },
+    "return-type": "json",
+    "exec-if": "which swaync-client",
+    "exec": "swaync-client -swb",
+    "on-click": "swaync-client -t -sw",
+    "on-click-right": "swaync-client -d -sw",
+    "escape": true
+  },
+  
+ "privacy": {
+    "icon-spacing": 10,
+    "icon-size": 13,
+    "transition-duration": 250,
+    "modules": [
+      {
+        "type": "screenshare",
+        "tooltip": true,
+        "tooltip-icon-size": 13,
+        "format": "", // Icon for screen share
+        "format-activated": "",
+        "format-deactivated": ""
+      },
+      {
+        "type": "audio-in",
+        "tooltip": true,
+        "tooltip-icon-size": 13,
+        "format": "", // Icon for microphone
+        "format-activated": "",
+        "format-deactivated": ""
+      }
+      // You can also add "audio-out" if you want to see when audio is playing
+      // {
+      //   "type": "audio-out",
+      //   "tooltip": true,
+      //   "tooltip-icon-size": 24,
+      //   "format": "", // Icon for audio output
+      //   "format-activated": "",
+      //   "format-deactivated": ""
+      // }
+    ],
+    "ignore-monitor": true, // Ignore streams with stream.monitor property (e.g., self-monitoring)
+    "tooltip": true,
+    "tooltip-format": "{modules}"
+  },
+  
+ "idle_inhibitor": {
+   "format": "{icon}",
+   "format-icons": {
+       "activated": "",
+       "deactivated": ""
+    },
+   "tooltip": false 
+  },
+
+  "custom/launcher": {
+    "format": "",
+    "on-click": "bash /home/$USER/.config/waybar/scripts/app_launcher.sh",
+    "tooltip-format": "Launch your favorite apps"
+  },
+
+  "tray": {
+    "format": "{} {}",
+    "spacing": 10
+    },
+
+  "custom/media": {
+    "format": "{}",
+    "escape": true,
+    "return-type": "json",
+    "max-length": 40,
+    "on-click": "playerctl play-pause",
+    "on-click-right": "playerctl stop",
+    "smooth-scrolling-threshold": 1, // This value was tested using a trackpad, it should be lowered if using a mouse.
+    "on-scroll-up": "playerctl next",
+    "on-scroll-down": "playerctl previous",
+    "exec": "$HOME/.config/waybar/scripts/mediaplayer.py 2> /dev/null" // Script in resources/custom_modules folder
+  },
+  
+  "battery": {
+    "format": "{icon}  {capacity}%",
+    "format-charging": "󰂄  {capacity}%",
+    "format-icons": ["󰁺", "󰁻", "󰁼", "󰁽", "󰁾", "󰁿", "󰂀", "󰂁", "󰂂", "󰁹"],
+    "tooltip-format": "Battery is at {capacity}%" 
+  },
+  "clock#date": {
+   "format": "󰃭  {:L%A %d de %B de %Y}",
+   "interval": 1,
+   "locale": "es_PE",
+   "tooltip": false,
+   "on-click": "gnome-calendar",
+  },
+
+
+  "clock#time": {
+    "format": "󰥔  {:%H:%M:%S}",
+    "interval": 1,
+    "locale": "es_PE",
+    "tooltip": false,
+    "on-click": "gnome-clocks"
+  },
+
+  "pulseaudio": {
+    "format": "{icon}  {volume}%",
+    "format-bluetooth": "󰂱 {volume}%",
+    "format-muted": "󰖁",
+    "scroll-step": 1,
+    "tooltip": false,
+    "on-click": "pavucontrol",
+    "ignored-sinks": ["Easy Effects Sink"],
+    "format-icons": {
+      "headphone": "",
+      "hands-free": "",
+      "headset": "󰋎",
+      "phone": "",
+      "portable": "",
+      "car": "",
+      "default": ["󰖀", "󰕾"]
+    },
+  },
+
+  "network": {
+    "interface": "wlo1",
+    "format": "{ifname}",
+    "format-wifi": "{icon}  {essid}",
+    "format-ethernet": "󰈀  {ipaddr}/{cidr}",
+    "format-disconnected": "󰤭  Disconnected",
+    "max-length": 50,
+    "format-icons": ["󰤯", "󰤟", "󰤢", "󰤥", "󰤨"],
+    "tooltip-format": "Connected to {essid}"
+  },
+
+  "hyprland/workspaces": {
+    "format": "{icon}",
+    "on-scroll-up": "hyprctl dispatch workspace e-1",
+    "on-scroll-down": "hyprctl dispatch workspace e+1",
+    "on-click": "activate",
+    "format-icons": {
+      "1": "1",
+      "2": "2",
+      "3": "3",
+      "4": "4",
+      "5": "5",
+      "6": "6",
+      "7": "7",
+      "8": "8",
+      "9": "9",
+      "10": "10"
+    },
+    "persistent-workspaces": {
+      "*": 3 // 3 workspaces by default on every monitor
+    },
+    "sort-by-number": true
+  },
+
+  "backlight": {
+    "device": "intel_backlight",
+    "format": "{icon}   {percent}%",
+    "format-icons": ["󰃞", "󰃟", "󰃠"]
+  },
+
+  "custom/weather": {
+    "exec": "${HOME}/.config/waybar/scripts/get_weather.sh",
+    "return-type": "json",
+    "format": "{}",
+    "tooltip": false,
+    "on-click": "gnome-weather",
+    "interval": 3600
+  },
+
+  "power-profiles-daemon": {
+    "format": "{icon}",
+    "tooltip-format": "Power mode: {profile}",
+    "tooltip": true,
+    "format-icons": {
+      "default": "",
+      "performance": "󰠠",
+      "balanced": "󰚀",
+      "power-saver": "󰌪"
+    }
+  },
+
+  "hyprland/window": {
+    "format": "{class}",
+    "separate-outputs": true,
+    "icon": true,
+    "icon-size": 18,
+    "rewrite": {
+    "firefox": "Firefox",
+    "spotify": "Spotify",  
+    "org.gnome.TextEditor": "Editor de texto", 
+    "com.obsproject.Studio": "OBS Studio",
+    "discord": "Discord",
+    "org.gnome.Nautilus": "Archivos",
+    "moe.launcher.an-anime-game-launcher": "An Anime Game Launcher",
+    "moe.launcher.the-honkers-railway-launcher": "The Honkers Railway Launcher",
+    "org-darisadesigns-polyglotlina-Desktop-PolyGlot": "PolyGlot",
+    "org.manjaro.pamac.manager": "Pamac",
+    "steam": "Steam",
+    "figma-linux": "Figma",
+    "pamac-manager": "Pamac",
+    "org.gnome.Software": "Gnome Software"
+  }
+},
+  
+"network": {
+    "format": " {bandwidthDownBits}     {bandwidthUpBits}",
+    "format-alt": "󰈀  andré",
+    "format-disconnected": "󰈂  Sin conexión",
+    "interval": 1,
+    "tooltip": false
+},
+  
+  "cpu": {
+    "interval": 10,
+    "format": "    {}%",
+    "max-length": 10
+  },
+
+  "memory": {
+    "interval": 30,
+    "format": "    {}%",
+    "max-length": 10
+  },
+
+  "disk": {
+    "interval": 30,
+    "format": "   {percentage_used}% used on {path}",
+    "path": "/"
+  }
+}

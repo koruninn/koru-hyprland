@@ -1,0 +1,21 @@
+set $wallpaper /home/koru/Imágenes/wallpaper/il palazzo ducale visto dal bacino di san marco.jpg
+
+set $background #201b16
+set $foreground #c7c6c4
+
+set $color0 #201b16
+set $color1 #88775A
+set $color2 #7B8271
+set $color3 #A99045
+set $color4 #91896F
+set $color5 #7E8883
+set $color6 #9B9D94
+set $color7 #c7c6c4
+set $color8 #75685f
+set $color9 #88775A
+set $color10 #7B8271
+set $color11 #A99045
+set $color12 #91896F
+set $color13 #7E8883
+set $color14 #9B9D94
+set $color15 #c7c6c4

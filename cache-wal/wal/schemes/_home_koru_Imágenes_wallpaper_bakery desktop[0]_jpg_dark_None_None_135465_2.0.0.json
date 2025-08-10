@@ -1,0 +1,28 @@
+{
+    "checksum": "f3c1a2c0f3524d482c0341c06df52ef8",
+    "wallpaper": "/home/koru/Im\u00e1genes/wallpaper/bakery desktop[0].jpg",
+    "alpha": "100",
+    "special": {
+        "background": "#271f11",
+        "foreground": "#c9c7c3",
+        "cursor": "#c9c7c3"
+    },
+    "colors": {
+        "color0": "#271f11",
+        "color1": "#A7604A",
+        "color2": "#B28F6D",
+        "color3": "#847B8D",
+        "color4": "#AAA198",
+        "color5": "#C9B6A3",
+        "color6": "#D9CDB4",
+        "color7": "#c9c7c3",
+        "color8": "#756e60",
+        "color9": "#A7604A",
+        "color10": "#B28F6D",
+        "color11": "#847B8D",
+        "color12": "#AAA198",
+        "color13": "#C9B6A3",
+        "color14": "#D9CDB4",
+        "color15": "#c9c7c3"
+    }
+}

@@ -1,0 +1,30 @@
+/* Import pywal-generated CSS variables */
+@import url("file:///home/koru/.cache/wal/colors.css");
+
+window {
+    background-color: alpha(var(--color2), 0.5);
+    border-radius: 10px;
+}
+
+label {
+    color: white;
+    font-family: "SF Pro Display";
+    font-size: 14pt;
+    font-weight: bold;
+}
+
+image {
+    color: white; /* main tint color */
+}
+
+/* Progress bar */
+progressbar trough {
+    background-color: alpha(var(--color4), 0.6);
+    border-radius: 8px;
+}
+
+progressbar progress {
+    background-color: white;
+    border-radius: 8px;
+}
+

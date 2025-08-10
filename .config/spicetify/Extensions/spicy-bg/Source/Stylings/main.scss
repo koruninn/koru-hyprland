@@ -1,0 +1,512 @@
+:root:has(.SpicyBG.BackgroundLayer) {
+  --spice-main: #00000012;
+  --spice-sidebar: unset;
+  --spice-rgb-main: unset;
+  --spice-rgb-sidebar: unset;
+  --spice-main-elevated: unset;
+  --background-elevated-highlight: transparent;
+  --spice-highlight: #a8a8a841;
+}
+
+
+.SkeletonLoading {
+  --BorderRadius: 0;
+  --ValueStop1: 40%;
+  --ValueStop2: 50%;
+  --ValueStop3: 60%;
+  --ColorStop1: hsla(0, 0%, 93%, 0.25);
+  --ColorStop2: hsla(0, 0%, 98%, 0.45);
+  --ColorStop3: hsla(0, 0%, 93%, 0.25);
+  animation: skeleton 1s linear infinite;
+  -webkit-backdrop-filter: blur(10px);
+  backdrop-filter: blur(10px);
+  background: linear-gradient(
+    -45deg,
+    var(--ColorStop1) var(--ValueStop1),
+    var(--ColorStop2) var(--ValueStop2),
+    var(--ColorStop3) var(--ValueStop3)
+  );
+  background-position-x: 100%;
+  background-size: 500%;
+  border-radius: var(--BorderRadius);
+}
+
+.SkeletonLoading * {
+  display: none;
+}
+
+:root:has(.SpicyBG.BackgroundLayer) {
+  .Root {
+    .SpicyBG.BackgroundLayer {
+      position: absolute;
+      filter: saturate(2.5) brightness(0.6);
+      height: 100%;
+      left: 0;
+      overflow: hidden;
+      pointer-events: none;
+      top: 0;
+      width: 100%;
+    }
+
+    .SpicyBGContainer.BackgroundContainer {
+      position: fixed;
+      top: 0;
+      left: 0;
+      width: 100cqw;
+      height: 100cqh;
+      z-index: -1;
+      overflow: hidden;
+      pointer-events: none;
+    }
+  }
+  .main-topBar-background {
+    transition: opacity .5s;
+    filter: brightness(1);
+    opacity: 0 !important;
+  }
+
+  .ShowHeaderOpacity {
+    opacity: 1 !important;
+  }
+
+  .main-actionBarBackground-background,
+  .main-entityHeader-backgroundColor,
+  .XVz4BMGP5zAEE5p90mYK,
+  .Bdcf5g__Rug3TGqSdbiy,
+  .dhq75ObRGjfBoBlz6clW,
+  .main-entityHeader-background.main-entityHeader-overlay,
+  .main-topBar-overlay,
+  #SpicyLyricsPage:not(.Fullscreen):not(.TippyMode) .spicy-dynamic-bg:not(.lowqmode),
+  .BeautifulLyricsPage:not(.Fullscreen) .BeautifulLyricsBackground-Container,
+  aside .BeautifulLyricsBackground-Container,
+  aside .spicy-dynamic-bg,
+  .main-home-homeHeader {
+    display: none !important;
+  }
+
+  #SpicyLyricsPage:not(.Fullscreen) {
+    background-color: unset !important;
+  }
+
+  /* .main-entityHeader-container.main-entityHeader-withBackgroundImage,
+  .os-host .main-entityHeader-container.main-entityHeader-withBackgroundImage {
+    height: 75.5vh !important;
+    transition: height .35s ease-out;
+  }
+
+  .os-host .main-entityHeader-container.main-entityHeader-withBackgroundImage {
+    height: 79.5vh !important;
+  }
+
+  .main-entityHeader-container.main-entityHeader-withBackgroundImage.ScrolledPast {
+    height: 500px !important;
+  } */
+
+  .XUwMufC5NCgIyRMyGXLD {
+    background-position: 50% 20% !important;
+  }
+
+  [data-testid="control-button-playpause"] {
+    svg {
+      fill: #000000 !important;
+    }
+  }
+
+  .main-view-container {
+    .under-main-view div,
+    .before-scroll-node div {
+      .wozXSN04ZBOkhrsuY5i2.XUwMufC5NCgIyRMyGXLD,
+      .main-entityHeader-background.main-entityHeader-gradient {
+        filter: brightness(var(--brightness-strength, 0.8)) blur(var(--blur-strength, 0px)) saturate(var(--saturation-strength, 1));
+        mask-image: linear-gradient(to top, transparent, black var(--mask-percentage, 75%));
+        scale: 1.085;
+        height: var(--height, 40vh) !important;
+        transform: rotate(var(--rotation-strength, 0deg));
+        /* transition: height .15s !important; */
+      }
+    }
+  }
+
+  /* .main-view-container:has(.main-entityHeader-container.main-entityHeader-withBackgroundImage.ScrolledPast) {
+    .wozXSN04ZBOkhrsuY5i2.XUwMufC5NCgIyRMyGXLD,
+    .main-entityHeader-background.main-entityHeader-gradient {
+      animation: BackgroundRotation 10s linear infinite;
+      height: 100% !important;
+    }
+  } */
+
+  .Ps9zgW56WZaBVLo1n3cg {
+    color: #121212 !important;
+  }
+
+  .BoxComponent-group-listRow-naked-isInteractive-minBlockSize_56px-padding_8px::after,
+  .BoxComponent-group-listRow-tinted-isInteractive-minBlockSize_56px-padding_8px::after {
+    transition: background-color .2s;
+  }
+
+  .BoxComponent-group-listRow-naked-isInteractive-minBlockSize_56px-padding_8px:hover::after,
+  .BoxComponent-group-listRow-tinted-isInteractive-minBlockSize_56px-padding_8px:hover::after,
+  .StyledTabItem-tab-tabItem-useBrowserDefaultFocusStyle:hover {
+    background-color: rgba(255, 255, 255, 0.1) !important;
+  }
+
+  .main-contextMenu-tippy {
+    --generic-tooltip-background-color: rgba(255, 255, 255, 0.1) !important;
+    backdrop-filter: blur(50px) !important;
+  }
+  .main-topBar-background,
+  .NiqTdDnFi5KAXoGukrdo,
+  .BoxComponent-group-card-naked-isInteractive-draggable:hover::after,
+  .BoxComponent-group-card-naked-isInteractive:hover::after,
+  .GimJ6fo6WOYPyWNVpSr1,
+  .main-globalNav-navLink:hover,
+  .b7r2WRiu5f9Q99qmyreh:hover .main-topBar-searchBar,
+  .b7r2WRiu5f9Q99qmyreh .main-topBar-searchBar:focus,
+  .MGZ4oJmGVPrWsx5cT5hN,
+  .AIlmv6h8bR5NY5R0VceT:hover,
+  .main-contextMenu-menu:has(button[role="menuitemradio"]),
+  .tLjX9htIKD_OCmEX01UN,
+  .main-userWidget-box,
+  .IEDOUN3mwwZhHVziC03a:focus-within,
+  .BoxComponent-group-listRow-naked-isInteractive-minBlockSize_56px:hover::after,
+  .pIxPdfuNasUDLbEDmuK_,
+  .zZMsUUWG29PYcwWPXhOV,
+  .search-modal-keyboard-accessibility-bar,
+  .Bn7PjpLWU6TcPCoeP98S,
+  .search-modal-listbox,
+  .marketplace-tabBar-active,
+  .marketplace-header .Dropdown-control,
+  .marketplace-content .main-card-card,
+  .jW4eWdr_LUeOXwPpKhWG,
+  .BoxComponent-group-card-naked-isInteractive-padding_tighter:hover::after,
+  .main-card-card,
+  .main-cardImage-imageWrapper,
+  .main-topBar-button,
+  .main-topBar-whatsNewFeed,
+  .main-topBar-buddyFeed,
+  .main-userWidget-boxCondensed,
+  .main-home-filterChipsSection,
+  .ViewControl,
+  .main-popper-container.main-devicePicker-tooltip,
+  .hcuLp8V4uEEfWZ4k6aLV:hover,
+  .main-popper-arrow, .main-popper-arrow:before,
+  .artist-artistAbout-container {
+    background-color: rgba(255, 255, 255, 0.1) !important;
+    backdrop-filter: blur(50px) !important;
+  }
+
+  .main-popper-arrow, .main-popper-arrow:before {
+    clip-path: polygon(50% 50%, 100% 50%, 50% 100%, 0% 50%);
+  }
+
+  .main-popper-arrow:before {
+    -webkit-transform: none !important;
+    transform: none !important;
+  }
+
+  .main-yourLibraryX-isScrolled,
+  .x-entityImage-imageContainer {
+    -webkit-box-shadow: none !important;
+    box-shadow: none !important;
+  }
+
+  .GenericModal__overlay .GenericModal > div,
+  .GenericModal,
+  .main-embedWidgetGenerator-container {
+    background-color: rgba(0, 0, 0, 0.1) !important;
+    backdrop-filter: blur(20px) !important;
+  }
+
+  .button-module__button___hf2qg_marketplace {
+    color: black !important;
+  }
+
+  .search-modal-resultItem {
+    transition: background-color 0.2s;
+  }
+
+  .GenericModal__overlay {
+    background-color: rgba(var(--spice-rgb-shadow), 0.5) !important;
+    backdrop-filter: blur(20px) !important;
+  }
+
+  .GenericModal__overlay .GenericModal > div,
+  .GenericModal,
+  .main-embedWidgetGenerator-container {
+    max-height: 85vh !important;
+    border-radius: 8px !important;
+  }
+
+  .mXNT9H2GU7lDW4cGx0q1,
+  .marketplace-content .main-card-card .main-card-PlayButtonContainer > button {
+    background-color: rgba(255, 255, 255, 0.2) !important;
+    backdrop-filter: blur(30px) !important;
+  }
+
+  .main-trackList-trackListHeaderStuck.main-trackList-trackListHeader,
+  .qyKJPLjz8o4jnbk92JOn,
+  .qyKJPLjz8o4jnbk92JOn:hover,
+  .mKUj4tXOjumlcv0q9Qta,
+  .mKUj4tXOjumlcv0q9Qta:hover,
+  .GOcsybnoHYyJGQGDRuwj {
+    background-color: rgba(255, 255, 255, 0.05) !important;
+    backdrop-filter: blur(30px) !important;
+  }
+
+  .main-contextMenu-menu:not(:has(button[role="menuitemradio"])) {
+    background-color: rgba(0, 0, 0, 0.9) !important;
+  }
+
+  .main-contextMenu-menu {
+    border-radius: 8px;
+  }
+
+  .main-contextMenu-menuItem .main-contextMenu-menuItemButton {
+    border-radius: 4px;
+  }
+
+  .IYex0sXu8fnCz1FqFbRe,
+  .a2NTH51fJWzWsds0OYv_:after,
+  .VqUjiYOlfxlk_lFOusZ7 {
+    background: unset !important;
+  }
+
+  .a2NTH51fJWzWsds0OYv_ {
+    mask-image: linear-gradient(to left, transparent, black 5%);
+  }
+
+  .Root__right-sidebar:has(.main-nowPlayingView-section, canvas) {
+    --background-tint: color-mix(
+      in srgb,
+      rgb(var(--spice-rgb-selected-row)) 7%,
+      transparent
+    );
+    --spice-card: var(--background-tint);
+    --background-tinted-base: var(--background-tint);
+  }
+
+  .Root__right-sidebar:has(.main-nowPlayingView-section, canvas) .main-nowPlayingView-content,
+  .lyrics-lyricsContainer-Provider {
+    background: transparent;
+  }
+
+  .Root__right-sidebar:has(.main-nowPlayingView-section, canvas)
+    .main-nowPlayingView-contextItemInfo:before {
+    display: none;
+  }
+
+  .Root__right-sidebar:has(.main-nowPlayingView-section, canvas)
+    .spicy-dynamic-bg
+    div[data-overlayscrollbars-viewport],
+  .Root__right-sidebar:has(.main-nowPlayingView-section, canvas)
+    .spicy-dynamic-bg
+    div[data-overlayscrollbars-viewport]
+    > div {
+    background: transparent;
+  }
+
+  .Root__right-sidebar:has(.main-nowPlayingView-section, canvas)
+    .spicy-dynamic-bg
+    .main-nowPlayingView-coverArtContainer
+    div:has(video):after,
+  .Root__right-sidebar:has(.main-nowPlayingView-section, canvas)
+    .spicy-dynamic-bg
+    .main-nowPlayingView-coverArtContainer
+    div:has(video):before {
+    display: none;
+  }
+
+  .Root__right-sidebar:has(.main-nowPlayingView-section, canvas)
+    .spicy-dynamic-bg
+    .main-trackInfo-artists {
+    filter: brightness(1.15);
+    opacity: 0.75;
+  }
+
+  .Root__right-sidebar:has(.main-nowPlayingView-section, canvas)
+    .main-nowPlayingView-coverArt {
+    box-shadow: 0 9px 20px 0 rgba(0, 0, 0, 0.271);
+    opacity: 0.95;
+  }
+
+  .Root__right-sidebar:has(.main-nowPlayingView-section, canvas)
+    .main-nowPlayingView-section,
+  .Root__right-sidebar:has(.main-nowPlayingView-section, canvas)
+    .main-nowPlayingView-section.QR9JmVmX9LYwo62NRtew
+    .CvxzmyND_aGd2RR8ZoSr {
+    background-color: var(--background-tinted-base);
+  }
+
+  .Root__right-sidebar:has(.main-nowPlayingView-section, canvas)
+    button[type="button"] {
+    background-color: var(--background-tinted-base);
+    color: hsla(0, 0%, 100%, 0.8);
+  }
+
+  .Root__right-sidebar:has(.main-nowPlayingView-section, canvas)
+    button[type="button"]
+    .Button-sm-buttonSecondary-isUsingKeyboard-useBrowserDefaultFocusStyle,
+  .Root__right-sidebar:has(.main-nowPlayingView-section, canvas)
+    button[type="button"]
+    .Button-sm-buttonSecondary-useBrowserDefaultFocusStyle {
+    border: 1px solid hsla(0, 0%, 100%, 0.5);
+  }
+
+  .encore-dark-theme .encore-bright-accent-set {
+    --text-base: #000000;
+    --text-subdued: #000000;
+    --text-bright-accent: #000000;
+    --text-negative: #000000;
+    --text-warning: #000000;
+    --text-positive: #000000;
+    --text-announcement: #000000;
+    --essential-base: #000000;
+    --essential-subdued: #000000;
+    --essential-bright-accent: #000000;
+    --essential-negative: #000000;
+    --essential-warning: #000000;
+    --essential-positive: #000000;
+    --essential-announcement: #000000;
+    --decorative-base: #000000;
+  }
+
+  .lyrics-lyrics-background,
+  .hcuLp8V4uEEfWZ4k6aLV,
+  .lyrics-lyricsContainer-LyricsBackground {
+    background-color: transparent !important;
+  }
+
+  .artist-artistOverview-artistOverviewContent {
+    background-color: unset !important;
+  }
+
+  /* Video element styling */
+  aside video {
+    filter: opacity(0.75) brightness(0.5) !important;
+    -webkit-mask-image: linear-gradient(
+      to bottom,
+      rgba(0, 0, 0, 1) 60%,
+      rgba(0, 0, 0, 0) 100%
+    ) !important;
+    mask-image: linear-gradient(
+      to bottom,
+      rgba(0, 0, 0, 1) 60%,
+      rgba(0, 0, 0, 0) 100%
+    ) !important;
+  }
+
+  /* Reset styles for videos inside VideoPlayer__container */
+  .VideoPlayer__container video {
+    filter: none !important;
+    -webkit-mask-image: none !important;
+    mask-image: none !important;
+  }
+
+  .main-nowPlayingView-coverArtContainer div:has(video)::before,
+  .main-nowPlayingView-coverArtContainer div:has(video)::after {
+    display: none;
+  }
+
+  .EmeHQXR87mUskYK6xEde,
+  .playlist-playlist-playlistContent {
+    background-color: unset !important;
+  }
+
+  .GenericModal__overlay .GenericModal {
+    animation: GenericModal_ScaleIn 0.2s ease-out forwards;
+  }
+
+  .iWTIFTzhRZT0rCD0_gOK {
+    --ProfilePictureWidth: clamp(128px,128px + (var(--main-view-grid-width) - 600px)/424*104,232px);
+  }
+
+  .os-host .contentSpacing.main-entityHeader-container.main-entityHeader-withBackgroundImage {
+    --ProfilePictureWidth: clamp(128px,128px + (100vw - var(--left-sidebar-width,0px) - var(--panel-width,0px) - 600px)/424*104,232px);
+  }
+  .main-entityHeader-container.main-entityHeader-withBackgroundImage.ProfilePictureApplied .main-entityHeader-imageContainer {
+    position: relative;
+    left: calc(var(--ProfilePictureWidth)* -1 - 50px);
+    transition: left .4s;
+  }
+
+  .main-entityHeader-container.main-entityHeader-withBackgroundImage .eFZahdafW8vQ7xY1kfBg,
+  .main-entityHeader-container.main-entityHeader-withBackgroundImage.ProfilePictureApplied .main-entityHeader-headerText {
+    margin-left: 5px;
+  }
+
+  .main-entityHeader-container.main-entityHeader-withBackgroundImage.ProfilePictureApplied .eFZahdafW8vQ7xY1kfBg,
+  .os-host .main-entityHeader-container.main-entityHeader-withBackgroundImage.ProfilePictureApplied .main-entityHeader-headerText {
+    position: relative;
+    left: calc(var(--ProfilePictureWidth)* -1 - 26px);
+    transition: left .4s;
+  }
+
+  .main-entityHeader-container.main-entityHeader-withBackgroundImage.ProfilePictureApplied .eFZahdafW8vQ7xY1kfBg,
+  .os-host .main-entityHeader-container.main-entityHeader-withBackgroundImage.ProfilePictureApplied .main-entityHeader-headerText {
+    left: 0;
+  }
+
+  .main-entityHeader-container.main-entityHeader-withBackgroundImage.ProfilePictureApplied .main-entityHeader-imageContainer {
+    left: 0;
+  }
+
+  
+  .Root__top-container:has(.Root__nav-bar.TkqXOzhmCCuE6YI3hlgA) .Root__main-view {
+    display: none;
+  }
+
+  .GOcsybnoHYyJGQGDRuwj {
+    -webkit-box-shadow: none;
+    box-shadow: none;
+  }
+
+  .ffFwfKcPDbmAPLXzxzKq {
+    border-radius: var(--section-border-radius, 8px);
+  }
+
+  .main-trackList-trackListRow {
+    transition: background-color .2s;
+  }
+
+  #SpicyLyricsPage .LyricsContainer .LyricsContent {
+    --ImageMask: linear-gradient(180deg, transparent 0, transparent 16px, #000000 64px, #000000 calc(100% - 64px), transparent calc(100% - 16px), transparent)
+  }
+
+  .main-tag-container {
+    color: #000000;
+  }
+
+  .kwzBRpFigKr1EP2d5qle {
+    color: #000000 !important;
+    background-color: rgba(255, 255, 255, 0.5) !important;
+    backdrop-filter: blur(3.5px) !important;
+  }
+
+  .guUl5dHbF5HJRvwjBxzR .jyNYgeneJ5inaKhciDjS {
+    mask-image: linear-gradient(0deg, transparent, black 80%);
+  }
+}
+
+@keyframes BackgroundRotation {
+  0% {
+    transform: rotate(var(--rotation-strength, 0deg));
+  }
+  100% {
+    transform: rotate(calc(360deg - var(--rotation-strength, 0deg)));
+  }
+}
+
+@keyframes GenericModal_ScaleIn {
+  0% {
+    scale: 0;
+  }
+  50% {
+    scale: 1;
+  }
+  65% {
+    scale: 1.025;
+  }
+  100% {
+    scale: 1;
+  }
+}

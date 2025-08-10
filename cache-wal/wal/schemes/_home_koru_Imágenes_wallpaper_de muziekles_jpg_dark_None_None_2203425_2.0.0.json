@@ -1,0 +1,28 @@
+{
+    "checksum": "855201b858fa0d3a7ffea8128584a3b6",
+    "wallpaper": "/home/koru/Im\u00e1genes/wallpaper/de muziekles.jpg",
+    "alpha": "100",
+    "special": {
+        "background": "#0b0b1b",
+        "foreground": "#c2c2c6",
+        "cursor": "#c2c2c6"
+    },
+    "colors": {
+        "color0": "#0b0b1b",
+        "color1": "#4B514A",
+        "color2": "#656560",
+        "color3": "#93684D",
+        "color4": "#AA8E70",
+        "color5": "#C99C53",
+        "color6": "#727B8C",
+        "color7": "#c2c2c6",
+        "color8": "#5a5a6f",
+        "color9": "#4B514A",
+        "color10": "#656560",
+        "color11": "#93684D",
+        "color12": "#AA8E70",
+        "color13": "#C99C53",
+        "color14": "#727B8C",
+        "color15": "#c2c2c6"
+    }
+}

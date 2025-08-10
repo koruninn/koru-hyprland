@@ -1,0 +1,28 @@
+{
+    "checksum": "e47b08018998727badfe3a7e3f391854",
+    "wallpaper": "/home/koru/Im\u00e1genes/wallpaper/minecraftlight.png",
+    "alpha": "100",
+    "special": {
+        "background": "#1c210e",
+        "foreground": "#c6c7c2",
+        "cursor": "#c6c7c2"
+    },
+    "colors": {
+        "color0": "#1c210e",
+        "color1": "#6E728D",
+        "color2": "#788BAA",
+        "color3": "#7896CC",
+        "color4": "#A99BAE",
+        "color5": "#91A9D0",
+        "color6": "#B2D0EA",
+        "color7": "#c6c7c2",
+        "color8": "#6d725d",
+        "color9": "#6E728D",
+        "color10": "#788BAA",
+        "color11": "#7896CC",
+        "color12": "#A99BAE",
+        "color13": "#91A9D0",
+        "color14": "#B2D0EA",
+        "color15": "#c6c7c2"
+    }
+}

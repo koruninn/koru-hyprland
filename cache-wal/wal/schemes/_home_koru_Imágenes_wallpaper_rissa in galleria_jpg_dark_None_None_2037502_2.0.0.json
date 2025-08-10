@@ -1,0 +1,28 @@
+{
+    "checksum": "cd57c6d28ff930ab8bc91e48c4f8b46d",
+    "wallpaper": "/home/koru/Im\u00e1genes/wallpaper/rissa in galleria.jpg",
+    "alpha": "100",
+    "special": {
+        "background": "#141315",
+        "foreground": "#c4c4c4",
+        "cursor": "#c4c4c4"
+    },
+    "colors": {
+        "color0": "#141315",
+        "color1": "#CD9E49",
+        "color2": "#CE9F64",
+        "color3": "#626E8D",
+        "color4": "#927789",
+        "color5": "#75888D",
+        "color6": "#A49795",
+        "color7": "#c4c4c4",
+        "color8": "#6f5b6f",
+        "color9": "#CD9E49",
+        "color10": "#CE9F64",
+        "color11": "#626E8D",
+        "color12": "#927789",
+        "color13": "#75888D",
+        "color14": "#A49795",
+        "color15": "#c4c4c4"
+    }
+}

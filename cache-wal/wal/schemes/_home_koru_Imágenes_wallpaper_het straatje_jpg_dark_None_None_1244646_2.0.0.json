@@ -1,0 +1,28 @@
+{
+    "checksum": "0ac9a9c4bc1c416bc05e7ed7a2c22cc2",
+    "wallpaper": "/home/koru/Im\u00e1genes/wallpaper/het straatje.jpg",
+    "alpha": "100",
+    "special": {
+        "background": "#191511",
+        "foreground": "#c5c4c3",
+        "cursor": "#c5c4c3"
+    },
+    "colors": {
+        "color0": "#191511",
+        "color1": "#73837E",
+        "color2": "#A98E70",
+        "color3": "#C69F72",
+        "color4": "#ABA698",
+        "color5": "#C8B79E",
+        "color6": "#D1C7B0",
+        "color7": "#c5c4c3",
+        "color8": "#70645c",
+        "color9": "#73837E",
+        "color10": "#A98E70",
+        "color11": "#C69F72",
+        "color12": "#ABA698",
+        "color13": "#C8B79E",
+        "color14": "#D1C7B0",
+        "color15": "#c5c4c3"
+    }
+}

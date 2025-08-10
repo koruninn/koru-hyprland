@@ -1,0 +1,28 @@
+{
+    "checksum": "6364f251e89b35ff9e9a84f7032dce41",
+    "wallpaper": "/home/koru/Im\u00e1genes/wallpaper/view of delft.jpg",
+    "alpha": "100",
+    "special": {
+        "background": "#1b1918",
+        "foreground": "#c6c5c5",
+        "cursor": "#c6c5c5"
+    },
+    "colors": {
+        "color0": "#1b1918",
+        "color1": "#A09D95",
+        "color2": "#B0B0AF",
+        "color3": "#D1B89C",
+        "color4": "#CDC5B7",
+        "color5": "#99B9CE",
+        "color6": "#B1C7D4",
+        "color7": "#c6c5c5",
+        "color8": "#73685e",
+        "color9": "#A09D95",
+        "color10": "#B0B0AF",
+        "color11": "#D1B89C",
+        "color12": "#CDC5B7",
+        "color13": "#99B9CE",
+        "color14": "#B1C7D4",
+        "color15": "#c6c5c5"
+    }
+}

@@ -1,0 +1,27 @@
+{
+    "wallpaper": "/home/koru/Im\u00e1genes/wallpaper/guardi - capriccio arco rovinato e una villa nello sfondo.jpg",
+    "alpha": "100",
+    "special": {
+        "background": "#0c0502",
+        "foreground": "#c2c6bd",
+        "cursor": "#c2c6bd"
+    },
+    "colors": {
+        "color0": "#0c0502",
+        "color1": "#666F5D",
+        "color2": "#8F6D3E",
+        "color3": "#778674",
+        "color4": "#928D71",
+        "color5": "#C9A061",
+        "color6": "#778F86",
+        "color7": "#c2c6bd",
+        "color8": "#878a84",
+        "color9": "#666F5D",
+        "color10": "#8F6D3E",
+        "color11": "#778674",
+        "color12": "#928D71",
+        "color13": "#C9A061",
+        "color14": "#778F86",
+        "color15": "#c2c6bd"
+    }
+}
